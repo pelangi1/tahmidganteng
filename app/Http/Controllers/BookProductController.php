@@ -14,8 +14,10 @@ class BookProductController extends Controller
      */
     public function index()
     {
-        $book = Book::get();
+        // $book = Book::get();
+        $book = Book::paginate(5);
         return view('product.index', compact('book'));
+        // return view('categories.index', compact('book'));
     }
 
     /**
