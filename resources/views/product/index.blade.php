@@ -3,7 +3,7 @@
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<h3 style="color: blue">Category</h3>
+<h3 style="color: blue">Halo ges</h3>
 <table class="table table-hover">
 <thead>
 <tr>
